@@ -23,7 +23,7 @@ arr_mid = []
 while(num_queue.qsize() > 0):
     arr_check = num_queue.get() #get from queue and delete from it
     if len(arr_check) > 0:
-        mid_idx = len(arr_check)//2 #// floor
+        mid_idx = len(arr_check)//2 #// floor division
         mid = arr_check[mid_idx]
         arr_left = arr_check[0:mid_idx]
         arr_right = arr_check[mid_idx+1:]
