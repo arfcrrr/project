@@ -12,9 +12,9 @@ for a in range(0,x):
     num_arr.append(int(input('Input numbers = ')))
 
 print('')
-print(13*'-')
-print(' FIRST ARRAY')
-print(13*'-')
+print(35*'-')
+print(' ARRAY [BEFORE DIVIDE AND CONQUER]')
+print(35*'-')
 print(num_arr)
 
 num_queue.put(num_arr)
@@ -32,7 +32,7 @@ while(num_queue.qsize() > 0):
         num_queue.put(arr_right)
     
 print('')
-print(26*'-')
-print(' AFTER DIVIDE AND CONQUER')
-print(26*'-')  
+print(34*'-')
+print(' ARRAY [AFTER DIVIDE AND CONQUER]')
+print(34*'-')  
 print(arr_mid)
