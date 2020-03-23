@@ -20,7 +20,7 @@ else:
     
     print('')
     print(35*'-')
-    print(' ARRAY [BEFORE DIVIDE AND CONQUER]')
+    print(' ARRAY - BEFORE DIVIDE AND CONQUER')
     print(35*'-')
     print(num_arr) 
     
@@ -40,6 +40,6 @@ else:
         
     print('')
     print(34*'-')
-    print(' ARRAY [AFTER DIVIDE AND CONQUER]')
+    print(' ARRAY - AFTER DIVIDE AND CONQUER')
     print(34*'-')  
     print(arr_mid)
