@@ -78,8 +78,6 @@ int main(){
 	{ 
 		{0,0}, {1,5}, {2,6}
 	};
-	int budget;
-	cout << " Input company's budget (in billion) = Rp "; cin >> budget; 
 	cout << " Maximum revenue that can be obtained = Rp "
-	<< maxRevenue(budget, factA, factB, factC) << " billion";
+	<< maxRevenue(5, factA, factB, factC) << " billion";
 } 
